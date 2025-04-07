@@ -8,4 +8,3 @@ botoes[i].onclick = function () {
     botoes[i].classList.add("ativo");
 
     }
-}
