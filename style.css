@@ -81,6 +81,18 @@ body {
 .botao:last-child{
     border-radius: 0 40px 0 0;
 }
-.ativo{
-    background-color: ;
+.botao.ativo{
+    background-color: var(--botao-ativo);
+border-bottom-left-radius: 4px solid var(--verde) ;
+}
+.aba-conteudo.ativo{
+    display: block;
+}
+.aba-conteudo{
+    display: nome;
+}
+.aba-texto{
+background-color:var(--texto-fundo) ;
+padding: 40px;
+border-radius:0 0 40px 40px ;
 }
